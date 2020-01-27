@@ -56,3 +56,5 @@ fi
 echo "ro.fuse.device=$FUSE_DEVICE"
 
 echo "# end build properties"
+
+VEN_INFO=vendor/fuse/build/tools/buildinfo.sh && test -f $VEN_INFO && source $VEN_INFO
